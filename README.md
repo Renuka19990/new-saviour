@@ -1,9 +1,8 @@
-
-  # Saviour Assignment
-
+# Saviours
 
 ## Introduction
 
+Welcome to Saviour, an immersive gaming platform designed to deliver an unmatched gaming experience. Our platform not only offers captivating gameplay but also incorporates a secure and convenient wallet feature, enhancing your overall experience. Whether you're a casual gamer or a competitive enthusiast, Saviour has something for everyone.
 
 ## Project Type
 
@@ -11,53 +10,60 @@ Frontend
 
 ## Deplolyed App
 
-Frontend: 
-
-
+Frontend: https://new-saviour.vercel.app/
 
 ## Directory Structure
 ```
-Saviour/
-├── README.md
-└── Saviour/
-    ├── Public/
-    ├── src/
-    │   ├── Components/
-    │   ├── Pages/
-    │   ├── assets/
-    │   ├── App.css
-    │   ├── App.jsx
-    │   ├── index.css
-    |   └── main.jsx
+├─ .eslintrc.cjs
+├─ .gitignore
+├─ README.md
+├─ index.html
+├─ package-lock.json
+├─ package.json
+├─ postcss.config.js
+├─ public
+│  └─ vite.svg
+├─ src
+│  ├─ App.css
+│  ├─ App.jsx
+│  ├─ Page
+│  │  └─|Faq.jsx
+│  ├─ iphone14.jsx
+│  │  
+│  ├─ components
+│  │  ├─Access.jsx
+│  │  ├─ FAQContent.jsx
+│  │  ├─ Footer.jsx
+│  │  ├─ FrameFAQ.jsx
+│  │  ├─ FrameNavbar.jsx
+│  │  ├─ FrameParticipate.jsx
+│  │  ├─ FramePhase1.jsx
+│  │  ├─ FrameTokenomics.jsx
+│  │  ├─ Grid.jsx
+│  │  └─ Link.jsx
+│  │  └─ Link1.jsx
+│  │  └─ Link2.jsx
+│  │  └─ TokenomicsImage.jsx
+│  │  └─ RoadmapItems.jsx
+│  ├─ index.css
+│  └─ main.jsx
+├─ tailwind.config.js
+└─ vite.config.js
+
   ```
 
-
-
-
 ## Features
-  Intuitive User Interface: A clean and user-friendly interface to enhance the browsing and shopping experience.
-   
-  User Authentication: Secure user registration and login.
 
-  Product Catalog: Explore a diverse range of fashion items conveniently categorized for easy navigation.
-
-  Shopping Cart: Effortlessly add and manage your favorite items with an interactive shopping cart.
- 
-  Responsive Design: Enjoy a consistent and visually appealing experience across various devices.
-
-- User Profiles: Guests can create profiles and see exclusive collection.
-- Admin Profile: Admin can handle Server Data
-
-
+- User-friendly dashboard with Figma design
+- Secure and convenient wallet integration
+- Responsive Design
   
 ## Installation & Getting started
 
 Detailed instructions on how to install, configure, and get the project running.
 
 ```bash
-git clone https://github.com/Renuka19990/Cloud-Chintak-2345.git
-
-cd Cloud-Chintak-2345/FashionFusion
+git clone https://github.com/Renuka19990/new-saviour
 
 npm install
 
@@ -68,54 +74,18 @@ npm install
 To start Application
 
 ```bash
+
 npm run dev
 
 ```
-
-Snapshot of Website
-<img src='FashionFusion/public/LandingPage1.png' alt="Landing Page Image"/>
-
-## Application Snapshots
-![landing](FashionFusion/public/LandingPage1.png)
-![login](FashionFusion/public/LoginPage.png)
-![men](FashionFusion/public/men.png)
-![women](FashionFusion/public/women.png)
-![SinglePage-men](FashionFusion/public/singlePage-men.png)
-![SinglePage-women](FashionFusion/public/singlePage-women.png)
-![admin](FashionFusion/public/admin1.png)
-![admin](FashionFusion/public/admin2.png)
-
-## API Endpoints
-
-Backend Applications provide a list of your API endpoints, methods, brief descriptions.
-
-<p>GET /api/men - retrieve all men products</p>
-<p>GET /api/women - retrieve all women products</p>
-
-<p>POST /api/cart - Add to cart</p>
-<p>PATCH /api/men - edit product </p>
-<p>DELETE /api/cart - delete from cart</p>
-
-<br/>
-<p>GET /api/users - retrieve all users</p>
-<p>POST /api/users - create a new user </p>
-<p>PATCH /api/users - create edit user</p>
-<p>DELETE /api/users - delete a user</p>
-
-
-
 
 ## Technology Stack
 
 List and provide a brief overview of the technologies used in the project.
 
 - React.js
-- Typescript
-- Chakra-ui
-- Tailwind
-- Redux-toolkit
-- json-server
+-TailwindCss
+- Web3Modal-Wagmi
 - Other libraries/modules
 
-## Contributors
 
